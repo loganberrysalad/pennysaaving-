@@ -1,0 +1,55 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <div class="container">
+        <label class="expense-label" for="clothing">Clothing:</label>
+        <input class="expense-input" type="number" id="clothing" name="clothing" min="0" step="1">
+    </div>
+    <div class="container">
+        <label class="expense-label" for="transport">Transport:</label>
+        <input class="expense-input" type="number" id="transport" name="transport" min="0" step="1">
+    </div>
+    <div class="container">
+        <label class="expense-label" for="fuel">Fuel:</label>
+        <input class="expense-input" type="number" id="fuel" name="fuel" min="0" step="1">
+    </div>
+    <div class="container">
+        <label class="expense-label" for="food">Food:</label>
+        <input class="expense-input" type="number" id="food" name="food" min="0" step="1">
+    </div>
+    <div class="container">
+        <label class="expense-label" for="entertainment">Entertainment:</label>
+        <input class="expense-input" type="number" id="entertainment" name="entertainment" min="0" step="1">
+    </div>
+    <div class="container">
+        <label class="expense-label" for="airtime">Airtime:</label>
+        <input class="expense-input" type="number" id="airtime" name="airtime" min="0" step="1">
+    </div>
+    <div class="container">
+        <label class="expense-label" for="income">Income:</label>
+        <input class="expense-input" type="number" id="income" name="income" min="0" step="1">
+    </div>
+
+    <button id="calculateButton" onclick="calculateTotal()">Calculate Total Left Over</button>
+    
+    
+
+        <div id="total-display">
+
+        </div>
+        <div id="twenty-percent-display" style="font-size: 14px;"></div>
+            <!-- <button id="calculate20PercentButton" onclick="calculate20Percent()">Calculate 20%</button> -->
+    
+
+
+    <script src="code.js" type=""></Script>
+
+</body>
+</html>
